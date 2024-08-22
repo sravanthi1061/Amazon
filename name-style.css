@@ -1,0 +1,23 @@
+div{
+    
+    height: 150px;
+    width: 150px;
+     color: black;
+    
+    animation: myanime 5s ease-in-out 1s 5 reverse ;
+    
+}
+div:hover{
+    transform: scale(22,22);
+   color: rgb(0, 255, 110);
+   transform: translate(600px);
+}
+
+/*@keyframes myanime{
+    from{
+        left: 0px;
+    }
+    to{
+        left:40px
+    }
+}*/
